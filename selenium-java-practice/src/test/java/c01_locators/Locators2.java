@@ -1,3 +1,4 @@
+package c01_locators;
 import java.time.Duration;
 
 import org.openqa.selenium.By;

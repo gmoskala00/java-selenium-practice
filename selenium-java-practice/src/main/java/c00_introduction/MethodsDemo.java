@@ -1,3 +1,4 @@
+package c00_introduction;
 
 public class MethodsDemo {
 
