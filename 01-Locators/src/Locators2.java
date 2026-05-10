@@ -9,8 +9,8 @@ import org.testng.Assert;
 public class Locators2 {
 
 	public static void main(String[] args) throws InterruptedException {
-		//WebDriver driver = new ChromeDriver();
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
+		//WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 		String password = getPassword(driver);
