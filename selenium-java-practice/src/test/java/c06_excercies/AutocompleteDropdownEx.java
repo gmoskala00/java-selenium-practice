@@ -21,7 +21,8 @@ public class AutocompleteDropdownEx {
 		Thread.sleep(3000);
 		for (WebElement option: driver.findElements(By.cssSelector("#ui-id-1 li div"))) {
 			if(option.getText().equalsIgnoreCase("Poland")) {
-				new Actions(driver).click(option).perform();
+				option.click();
+				//new Actions(driver).click(option).perform();
 				break;
 			}
 		}
